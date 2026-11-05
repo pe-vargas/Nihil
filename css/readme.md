@@ -23,3 +23,7 @@ Todas as páginas carregam o `style.css`. As páginas de carrinho, contato e qui
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/quiz.css">
 ```
+
+---
+
+**Observação:** Ao criar uma nova página com estilo próprio, adicionar o arquivo nesta pasta e registrá-lo na tabela acima.
