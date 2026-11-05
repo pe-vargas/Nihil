@@ -24,4 +24,3 @@ Reúne as capturas de tela exibidas no README principal do projeto.
 
 ---
 
-**Observação:** O Git não armazena pastas vazias. Este arquivo garante que a pasta exista no repositório antes da inclusão das imagens.
