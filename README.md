@@ -1,4 +1,4 @@
-# NIHIL — Loja Virtual de Moda Gótica
+# NIHIL — Loja Virtual de Moda
 
 **Universidade Tuiuti do Paraná | 2026**
 
@@ -10,7 +10,7 @@
 
 Projeto desenvolvido como atividade acadêmica da disciplina de **Programação Web**, do curso de Análise e Desenvolvimento de Sistemas da Universidade Tuiuti do Paraná (UTP).
 
-O trabalho consiste em uma loja virtual de moda gótica/sombria, chamada **NIHIL** (*"Nothing Is Worn Louder"*), inspirada em Elden Ring. A aplicação foi desenvolvida em PHP, HTML e CSS, sem uso de banco de dados.
+O trabalho consiste em uma loja virtual de moda gótica/sombria, chamada **NIHIL**. A aplicação foi desenvolvida utilizando PHP, HTML e CSS, sem uso de banco de dados.
 
 ## Pré-visualização
 
