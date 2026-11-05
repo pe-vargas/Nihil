@@ -1,0 +1,152 @@
+.contato-hero {
+    padding: 140px 6% 80px 6%;
+    text-align: center;
+}
+
+.contato-hero h1 {
+    font-size: clamp(40px, 6vw, 72px);
+    color: #ffffff;
+    font-weight: 400;
+    letter-spacing: 3px;
+    line-height: 1.15;
+    margin: 24px 0 32px 0;
+    text-transform: uppercase;
+}
+
+.contato-hero h1 em {
+    font-style: italic;
+    color: #8c1a20;
+}
+
+.contato-hero .hero-desc {
+    font-size: 14px;
+    color: #615e5a;
+    letter-spacing: 1.5px;
+}
+
+.contato-wrapper {
+    max-width: 700px;
+    margin: 0 auto 120px auto;
+    padding: 0 6%;
+}
+
+.contato-form {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    border-top: 1px solid #121212;
+    padding-top: 40px;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 28px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-group label {
+    font-family: 'Arial', sans-serif;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #44413e;
+}
+
+.form-group input,
+.form-group textarea {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #1c1c1c;
+    color: #9c9993;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    padding: 12px 0;
+    outline: none;
+    transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: #2a2a2a;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-bottom-color: #55524f;
+    color: #ffffff;
+}
+
+.form-group textarea {
+    resize: none;
+    line-height: 1.8;
+}
+
+.btn-submit {
+    font-family: 'Arial', sans-serif;
+    background-color: transparent;
+    color: #8c8984;
+    border: 1px solid #1c1c1c;
+    padding: 16px 40px;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    cursor: pointer;
+    align-self: flex-start;
+    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.btn-submit:hover {
+    color: #ffffff;
+    border-color: #ffffff;
+    background-color: #000000;
+}
+
+.form-feedback {
+    padding: 28px 30px;
+    margin-bottom: 40px;
+    border-left: 2px solid #8c1a20;
+    background-color: #05040a;
+}
+
+.form-feedback.sucesso {
+    border-left-color: #1a5c2a;
+}
+
+.feedback-label {
+    font-family: 'Arial', sans-serif;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #8c1a20;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-feedback.sucesso .feedback-label {
+    color: #2a8c3e;
+}
+
+.form-feedback p {
+    font-size: 13px;
+    color: #55524f;
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+@media (max-width: 600px) {
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+
+    .btn-submit {
+        width: 100%;
+        text-align: center;
+    }
+}

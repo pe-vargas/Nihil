@@ -1,0 +1,148 @@
+/* Container Principal do Quiz */
+.quiz-container {
+    max-width: 700px;
+    margin: 80px auto;
+    padding: 0 6%;
+    font-family: 'Arial', sans-serif;
+}
+
+.quiz-container h1 {
+    font-family: 'Times New Roman', serif;
+    font-size: 32px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #121212;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.quiz-sub {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #55524f;
+    text-align: center;
+    margin-bottom: 50px;
+    display: block;
+}
+
+/* Blocos das perguntas */
+.pergunta-box {
+    margin-bottom: 40px;
+    border-left: 1px solid #1c1c1c;
+    padding-left: 20px;
+}
+
+.pergunta-titulo {
+    font-size: 13px;
+    color: #ffffff;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+/* Opções de Seleção */
+.opcao-label {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: #070707;
+    border: 1px solid #121212;
+    padding: 16px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 12px;
+    color: #8c8984;
+    transition: all 0.3s ease;
+}
+
+.opcao-label:hover {
+    border-color: #333;
+    color: #ffffff;
+}
+
+.opcao-label input[type="radio"] {
+    accent-color: #8c1a20;
+    cursor: pointer;
+}
+
+.btn-quiz {
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Caixa de Resultado Dinâmico */
+.resultado-box {
+    background-color: #050505;
+    border: 1px solid #1c1c1c;
+    padding: 35px;
+    margin-bottom: 60px;
+    text-align: center;
+    position: relative;
+}
+
+.resultado-box h2 {
+    font-family: 'Times New Roman', serif;
+    font-size: 24px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.resultado-sub {
+    font-size: 9px;
+    letter-spacing: 4px;
+    color: #8c1a20;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.resultado-text {
+    font-size: 13px;
+    line-height: 1.8;
+    color: #615e5a;
+    max-width: 520px;
+    margin: 0 auto 30px auto;
+    letter-spacing: 0.5px;
+}
+
+/* Vitrine de Recomendações Interna */
+.quiz-vitrine-titulo {
+    font-family: 'Times New Roman', serif;
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: 40px 0 25px 0;
+    text-align: center;
+    border-top: 1px solid #121212;
+    padding-top: 25px;
+}
+
+.resultado-box .vitrine {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    text-align: left;
+}
+
+.resultado-box .produto-card {
+    background-color: #020202;
+    border: 1px solid #101010;
+}
+
+/* Cantos Estilizados */
+.corner-deco {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border: 1px solid #8c1a20; 
+}
+.corner-deco.tl { top: -1px; left: -1px; border-right: none; border-bottom: none; }
+.corner-deco.tr { top: -1px; right: -1px; border-left: none; border-bottom: none; }
+.corner-deco.bl { bottom: -1px; left: -1px; border-right: none; border-top: none; }
+.corner-deco.br { bottom: -1px; right: -1px; border-left: none; border-top: none; }
