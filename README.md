@@ -96,7 +96,7 @@ Cada pasta possui seu próprio README: [css](css/README.md) · [img](img/README.
 | Curso | Análise e Desenvolvimento de Sistemas |
 | Disciplina | Programação Web |
 | Professor | Luiz Adolpho Baroni |
-| Período | Primeiro Semestre de 2026 |
+| Período | Segundo Semestre de 2026 |
 | Tipo | Trabalho acadêmico individual |
 
 ---
